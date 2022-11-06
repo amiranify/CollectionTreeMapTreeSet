@@ -3,7 +3,7 @@ public class Person {
     private String surname;
     private int age;
 
-    public Person(String name, String surname, int age){
+    public Person(String name, String surname, int age) {
         this.name = name;
         this.surname = surname;
         this.age = age;
@@ -35,10 +35,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                ", age=" + age +
-                '}';
+        return "{Имя: " + name + " Фамилия: " + surname + " Возраст: " + age + " лет}";
     }
 }
